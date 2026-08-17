@@ -64,8 +64,9 @@ h1,h2,h3{font-family:var(--font-display);text-transform:uppercase;letter-spacing
 
 /* ---------- Nav ---------- */
 .site-header{position:sticky;top:0;z-index:100;background:#fff;box-shadow:0 2px 14px rgba(10,31,68,.08)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
-.nav .logo img{height:46px;width:auto}
+.nav{display:flex;align-items:center;justify-content:space-between;height:88px}
+.nav .logo img{height:58px;width:auto}
+@media(max-width:560px){.nav .logo img{height:46px}}
 .nav-links{display:flex;gap:30px;list-style:none}
 .nav-links a{font-weight:600;font-size:15px;color:var(--navy);position:relative}
 .nav-links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--blue);transition:width .2s}
@@ -77,7 +78,7 @@ h1,h2,h3{font-family:var(--font-display);text-transform:uppercase;letter-spacing
 .hamburger{display:none;background:none;border:0;cursor:pointer;padding:8px}
 .hamburger span{display:block;width:24px;height:3px;background:var(--navy);margin:5px 0;border-radius:2px;transition:.25s}
 @media(max-width:990px){
-  .nav-links{position:fixed;inset:76px 0 auto 0;background:#fff;flex-direction:column;gap:0;padding:8px 22px 18px;box-shadow:0 14px 20px rgba(10,31,68,.12);transform:translateY(-130%);transition:transform .25s;z-index:99}
+  .nav-links{position:fixed;inset:88px 0 auto 0;background:#fff;flex-direction:column;gap:0;padding:8px 22px 18px;box-shadow:0 14px 20px rgba(10,31,68,.12);transform:translateY(-130%);transition:transform .25s;z-index:99}
   .nav-links.open{transform:translateY(0)}
   .nav-links li{border-bottom:1px solid var(--line)}
   .nav-links a{display:block;padding:14px 0}
@@ -223,7 +224,7 @@ h1,h2,h3{font-family:var(--font-display);text-transform:uppercase;letter-spacing
 .footer ul li{margin-bottom:10px}
 .footer a{color:#9FB0CC}
 .footer a:hover{color:#fff}
-.footer .f-brand img{height:44px;width:auto;margin-bottom:16px;filter:brightness(0) invert(1)}
+.footer .f-brand img{height:54px;width:auto;margin-bottom:16px;filter:brightness(0) invert(1)}
 .footer .f-brand p{max-width:300px}
 .f-contact li{display:flex;gap:10px;align-items:flex-start}
 .f-contact svg{flex:none;margin-top:3px}
