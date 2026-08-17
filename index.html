@@ -62,15 +62,6 @@ h1,h2,h3{font-family:var(--font-display);text-transform:uppercase;letter-spacing
 .btn-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55)}
 .btn-outline:hover{background:rgba(255,255,255,.1)}
 
-/* ---------- Top bar ---------- */
-.topbar{background:var(--navy);color:#c8d6ef;font-size:13.5px;padding:7px 0}
-.topbar .container{display:flex;justify-content:space-between;align-items:center;gap:14px}
-.topbar a{color:#fff;font-weight:600}
-.topbar .tb-left{display:flex;gap:22px}
-.topbar span svg{vertical-align:-2px;margin-right:6px}
-@media(max-width:700px){.topbar .tb-left span:nth-child(2){display:none}}
-@media(max-width:480px){.topbar .tb-left{display:none}.topbar .container{justify-content:center}}
-
 /* ---------- Nav ---------- */
 .site-header{position:sticky;top:0;z-index:100;background:#fff;box-shadow:0 2px 14px rgba(10,31,68,.08)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:76px}
@@ -308,17 +299,6 @@ h1,h2,h3{font-family:var(--font-display);text-transform:uppercase;letter-spacing
 </style>
 </head>
 <body>
-
-<!-- Top bar -->
-<div class="topbar">
-  <div class="container">
-    <div class="tb-left">
-      <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M12 2 15 9l7 .5-5.4 4.6 1.8 7L12 17l-6.4 4.1 1.8-7L2 9.5 9 9z" fill="#F5A623"/></svg>Rated 4.9/5 by verified customers</span>
-      <span>FMCSA Licensed &amp; Bonded · Fully Insured</span>
-    </div>
-    <a href="tel:18885550134">Call Now: (888) 555-0134</a>
-  </div>
-</div>
 
 <!-- Nav -->
 <header class="site-header">
